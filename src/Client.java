@@ -22,7 +22,7 @@ public class Client {
         }));
         try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))){
             //Client.link= System.getenv("lab5");
-            Client.link= "/Users/nbiryulin/Desktop/test.xml";
+            Client.link= "/home/s242494/lab5/test.xml";
             System.out.println(Client.link);
             XMLParser.parseFromFile( Client.link,planetCollection.hashMap);
             String thisLine;
